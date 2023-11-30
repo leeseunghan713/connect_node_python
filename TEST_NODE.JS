@@ -1,5 +1,7 @@
 const { exec } = require('child_process');
 
+process.env.PYTHONIOENCODING = 'utf-8';
+
 const command = 'test.py'
 
 exec(command, (error, stdout, stderr) => {

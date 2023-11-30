@@ -9,7 +9,8 @@ Original file is located at
 
 def main ():
 
-   print ("NODE PYTHON CONNECT!")
+   print("NODE PYTHON CONNECT!")
+   print("노드와 파이썬 연결")
 
 if __name__ == "__main__":
 
